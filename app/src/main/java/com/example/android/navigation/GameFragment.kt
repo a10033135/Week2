@@ -25,6 +25,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import com.example.android.navigation.databinding.FragmentGameBinding
+import kotlinx.android.synthetic.*
 
 class GameFragment : Fragment() {
     data class Question(
@@ -74,6 +75,9 @@ class GameFragment : Fragment() {
 
         // Bind this fragment class to the layout
         binding.game = this
+
+
+
 
         // Set the onClickListener for the submitButton
         binding.submitButton.setOnClickListener { view: View ->
