@@ -27,7 +27,7 @@
                 <ImageView
                     android:id="@+id/profileImage"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="378dp"
                     android:src="@mipmap/profile_image"
                     app:layout_constraintBottom_toTopOf="@id/ProfileScroll"
                     app:layout_constraintEnd_toEndOf="parent"
