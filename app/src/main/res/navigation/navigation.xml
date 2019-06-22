@@ -33,7 +33,7 @@
     <fragment
         android:id="@+id/gameFragment"
         android:name="com.example.android.navigation.GameFragment"
-        android:label="@string/android_trivia"
+        android:label="fragment_rules"
         tools:layout="@layout/fragment_game">
         <action
             android:id="@+id/action_gameFragment_to_gameOverFragment"
@@ -69,8 +69,13 @@
             app:popUpTo="@+id/titleFragment" />
     </fragment>
     <fragment
+        android:id="@+id/rulesFragment"
+        android:name="com.example.android.navigation.RulesFragment"
+        android:label="@string/title_trivia_rules"
+        tools:layout="@layout/fragment_rules" />
+    <fragment
         android:id="@+id/aboutFragment"
         android:name="com.example.android.navigation.AboutFragment"
-        android:label="fragment_about"
+        android:label="@string/title_about_trivia"
         tools:layout="@layout/fragment_about" />
 </navigation>
