@@ -30,6 +30,7 @@
             android:id="@+id/action_titleFragment_to_gameFragment"
             app:destination="@id/gameFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/gameFragment"
         android:name="com.example.android.navigation.GameFragment"
@@ -59,7 +60,8 @@
             app:argType="integer" />
         <action
             android:id="@+id/action_gameWonFragment_to_profileFragment"
-            app:destination="@id/profileFragment" />
+            app:destination="@id/profileFragment"
+            />
     </fragment>
     <fragment
         android:id="@+id/gameOverFragment"
@@ -84,6 +86,6 @@
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.android.navigation.ProfileFragment"
-        android:label="fragment_profile"
+        android:label="@string/ProfileFrag"
         tools:layout="@layout/fragment_profile" />
 </navigation>

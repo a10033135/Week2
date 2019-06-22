@@ -9,7 +9,8 @@
         android:icon="@drawable/android"
         android:title="@string/about" />
     <item
-        android:id="@+id/ProfileFragment"
+        android:id="@+id/profileFragment"
         android:icon="@drawable/android"
-        android:title="@string/ProfileFrag" />
+        android:title="@string/ProfileFrag"
+        />
 </menu>

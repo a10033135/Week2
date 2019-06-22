@@ -39,7 +39,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/youWinImage" />
+            app:layout_constraintTop_toBottomOf="@+id/youWinImage"
+            />
 
         <Button
             android:id="@+id/ProfileButton2"
@@ -58,7 +59,7 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="@+id/nextMatchButton"
             app:layout_constraintTop_toBottomOf="@+id/nextMatchButton"
-            app:layout_constraintVertical_bias="0.196" />
+            app:layout_constraintVertical_bias="0.196"/>
 
         <ImageView
             android:id="@+id/youWinImage"
